@@ -41,7 +41,8 @@ static void heapify(T* arr, int n, int i) {
 }
 
     static void heapSort(T* start, T* end){
-        //TODO int n = end - start;
+        //TODO int 
+    n = end - start;
 
     // Build heap (rearrange array)
     for (int i = n / 2 - 1; i >= 0; i--)
